@@ -1,0 +1,82 @@
+
+.home {
+  background-image: url("pic2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; 
+  margin: 0; 
+  padding: 0; 
+}
+
+/* Add margin-top to create space above the list */
+.list {
+  background-image: url("listpic.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 450px;
+  height: 550px;
+  margin-top: 20px; 
+}
+
+.create-form{
+  padding-top: 200px;
+  margin-left: 50px;
+}
+
+.create-form input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+
+.create-form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.task {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  width: 360px;
+  justify-content: space-between; /* Ensures space between items */
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px;
+  margin-top: 2px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Allows the checkbox section to grow */
+}
+
+.checkbox .icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.trash-icon {
+  margin-left: auto; /* Pushes the trash icon to the right */
+  cursor: pointer; /* Changes cursor to pointer for better UX */
+}
+
+.task div span {
+  margin: 0px 5px 0px 4px;
+}
+
+.task div .icon {
+  cursor: pointer;
+}
+.line_through{
+  text-decoration: line-through;
+
+}
